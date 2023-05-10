@@ -20,7 +20,7 @@ import Card from "../components/card";
             <div>
               <Slider {...settings}>
                 <div>
-                <div className="flex justify-center gap-32 snap-center  ">
+                <div style={{marginBottom: '1rem'}} className="flex justify-center gap-32 snap-center  ">
           <Card name="Aryan Raj" post="President" />
           <Card name="Souvik Dey" post={"Joint-President"} />
           <Card name="Abhishek Pandey" post={"Vice-President"} />
@@ -28,7 +28,7 @@ import Card from "../components/card";
         </div>
                 </div>
                 <div>
-                <div className="flex justify-center gap-32 snap-center ">
+                <div style={{marginBottom: '1rem'}} className="flex justify-center gap-32 snap-center ">
           <Card name="Abheet Pandey" post={"District co-ordinator"} />
           <Card name="Abhishek Ranjan" post={"District co-ordinator"} />
           <Card name="Mihir Verma" post={"Director"} />
@@ -36,7 +36,7 @@ import Card from "../components/card";
         </div>
                 </div>
                 <div>
-                <div className="flex justify-center gap-32 snap-center ">
+                <div style={{marginBottom: '1rem'}} className="flex justify-center gap-32 snap-center ">
           <Card name="Pandey" post={"VP"} />
           <Card name="Pandey" post={"VP"} />
           <Card name="Pandey" post={"VP"} />
