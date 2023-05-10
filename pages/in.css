@@ -1,0 +1,52 @@
+.hero-div {
+  background-image: url("./holi2.jpeg");
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0%, 75% 0);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.hero-div-container{
+  max-height: 30rem;
+  display: flex;
+  flex: 1;
+  color: white;
+  /* max-width: 1368px; */
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  width: 50%;
+  padding-left: 2rem;
+}
+.hero-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image-with-para, .album-container, .only-intro {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+
+.slick-prev {
+  left: 0.5% !important;
+  filter: invert(1);
+  z-index: 1;
+}
+.slick-next {
+  right: 0.5% !important;
+  filter: invert(1);
+  z-index: 1;
+}
