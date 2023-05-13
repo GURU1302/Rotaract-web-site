@@ -1,6 +1,5 @@
 import "aos/dist/aos.css";
 import Aos from "aos";
-import Card from "../components/card";
 import logo from "../public/rotaractLogo.svg";
 
 import SimpleSlider from "./SliderPath";
@@ -69,8 +68,34 @@ export default function About(props) {
           created by Rotary International in 1962.
         </p>
       </div>
-      <div className="min-h-[25rem] bg-pink-500 max-w-full rounded-xl ">
+      <div className="min-h-[25rem] bg-pink-300 max-w-full rounded-xl ">
         <h2 className="text-center text-white">Faculty Adviser</h2>
+        <div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}>
+        <div
+            style={{
+              zIndex: '1',
+              height: '18rem',
+              width: '18rem',
+              marginLeft: '3rem',
+              borderRadius: '50%',
+              backgroundColor: "#F27BB8"
+            }}
+          >
+         {/* Image of the faculty advisor */}
+          </div>
+           <div>
+           <textarea style={{resize: 'none', padding: '1rem', border: 'none', outline: 'none'}} className= "rounded-lg bg-gradient-to-r from-pink-600 to-pink-300"  rows="6" cols="70">
+           Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing the fact that i am 
+          </textarea>
+           </div>
+        </div>
+        
       </div>
 
       <Slider2 />
