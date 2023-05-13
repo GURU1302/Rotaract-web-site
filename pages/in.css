@@ -33,20 +33,18 @@
   align-items: center;
 }
 
+
 .image-with-para, .album-container, .only-intro {
   display: flex;
   flex: 1;
   justify-content: center;
 }
 
+.zoo{
+  transition: transform .2s; /* Animation */
 
-.slick-prev {
-  left: 0.5% !important;
-  filter: invert(1);
-  z-index: 1;
 }
-.slick-next {
-  right: 0.5% !important;
-  filter: invert(1);
-  z-index: 1;
+
+.zoo:hover {
+  transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }

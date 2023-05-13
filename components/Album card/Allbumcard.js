@@ -1,10 +1,12 @@
-export default function Allbum() {
+import "aos/dist/aos.css";
+export default function Allbum(props) {
   return (
     <div
-      data-aos="flip-left"
-      className="bg-red-300 p-4  min-h-[17rem] min-w-[27.5rem]"
+
+     // data-aos="flip-left"
+      className=" zoo bg-red-300 p-4  min-h-[16rem] min-w-[22rem]"
     >
-      <h3 className="text-center">Holi album</h3>
+      <h3 className=" p-2 text-center">{props.name}</h3>
     </div>
   );
 }

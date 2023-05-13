@@ -62,7 +62,7 @@ export default function Navbar(props)
                 <button onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})} style={{position: 'fixed', right: '1rem', bottom: '1rem', }}><BsFillArrowUpCircleFill style={{width: '2rem', height: '2rem'}}/></button>
 
 
-                <div id="navbar" className=" bg-slate-100 text-[#121212] text-base w-full p|y-7 shadow-md p|x-5 duration-300 z-40 text-center">
+                <div id="navbar" className="fixed bg-slate-100 text-[#121212] text-base w-full p|y-7 shadow-md p|x-5 duration-300 z-40 text-center">
                     
                     <div className="w-[70%] px-10 h-20 ml-20  flex place-items-center gap-x-10">
                         
