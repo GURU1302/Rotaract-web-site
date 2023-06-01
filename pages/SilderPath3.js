@@ -77,7 +77,7 @@ export default class CenterMode extends Component {
         }
       };
       return (
-        <div>
+        <div className="p-4">
           <Slider {...settings}>
             <div>
             <div className="album-container">
